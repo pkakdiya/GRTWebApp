@@ -1,0 +1,53 @@
+ <!--================Footer Area =================-->
+ <footer class="footer_area p_120">
+    <div class="container">
+        <div class="row footer_inner">
+            <div class="col-lg-5 col-sm-6">
+                <aside class="f_widget ab_widget">
+                    <div class="f_title">
+                        <h3>About Me</h3>
+                    </div>
+                    <p>If you own an Iphone, you’ve probably already worked out how much fun it is to use it to watch movies-it has that nice big screen, and the sound quality.</p>
+                </aside>
+            </div>
+            <div class="col-lg-5 col-sm-6">
+                <aside class="f_widget news_widget">
+                    <div class="f_title">
+                        <h3>Newsletter</h3>
+                    </div>
+                    <p>Stay updated with our latest trends</p>
+                    <div id="mc_embed_signup">
+                            <div class="input-group d-flex flex-row">
+                                <form #EmailSend="ngForm" (ngSubmit)="onSubmit(EmailSend.value)">
+                                            <input placeholder="Enter email address" onfocus="this.placeholder = ''"  [(ngModel)]="EmailSendModel.email" name="email" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                            <button class="btn sub-btn" type="submit"><span class="lnr lnr-arrow-right"></span></button>	 
+                                    </form>	
+                            </div>				
+                            <div class="mt-10 info"></div>
+                        
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-2">
+                <aside class="f_widget social_widget">
+                    <div class="f_title">
+                        <h3>Follow Me</h3>
+                    </div>
+                    <p>Let us be social</p>
+                    <ul class="list">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <div class="copy_right_text">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">M.D. Group</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+    </div>
+</footer>
+<!--================End Footer Area =================-->

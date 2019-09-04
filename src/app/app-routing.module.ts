@@ -28,6 +28,14 @@ const routes: Routes = [
     loadChildren:'../app/contactcomponent/contactcomponent.module#ContactcomponentModule'
   },
   {
+    path:"Inquiry",
+    loadChildren:'../app/inquirycomponent/inquirycomponent.module#InquirycomponentModule'
+  },
+  {
+    path:"Gallery",
+    loadChildren:'../app/gallerycomponent/gallerycomponent.module#GallerycomponentModule'
+  },
+  {
     path:"Admin",
     loadChildren:'../app/admincomponent/admincomponent.module#AdmincomponentModule'
   }

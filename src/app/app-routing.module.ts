@@ -16,28 +16,12 @@ const routes: Routes = [
     loadChildren:'../app/workcomponent/workcomponent.module#WorkcomponentModule'
   },
   {
-    path:"Service",
-    loadChildren:'../app/servicecomponent/servicecomponent.module#ServicecomponentModule'
-  },
-  {
-    path:"Blog",
-    loadChildren:'../app/blogcomponent/blogcomponent.module#BlogcomponentModule'
-  },
-  {
     path:"Contact",
     loadChildren:'../app/contactcomponent/contactcomponent.module#ContactcomponentModule'
   },
   {
     path:"Inquiry",
     loadChildren:'../app/inquirycomponent/inquirycomponent.module#InquirycomponentModule'
-  },
-  {
-    path:"Gallery",
-    loadChildren:'../app/gallerycomponent/gallerycomponent.module#GallerycomponentModule'
-  },
-  {
-    path:"Admin",
-    loadChildren:'../app/admincomponent/admincomponent.module#AdmincomponentModule'
   }
 ];
 

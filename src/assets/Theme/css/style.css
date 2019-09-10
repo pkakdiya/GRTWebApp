@@ -267,7 +267,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: url(../gallery/compress1.jpg) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     overflow: hidden;

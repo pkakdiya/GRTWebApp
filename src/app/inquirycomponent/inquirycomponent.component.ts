@@ -12,4 +12,8 @@ export class InquirycomponentComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit() {
+
+  }
+
 }

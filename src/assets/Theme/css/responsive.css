@@ -48,7 +48,7 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background: #a7cb00;
+		background: transparent;;
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;

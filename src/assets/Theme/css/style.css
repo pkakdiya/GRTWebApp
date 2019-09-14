@@ -274,8 +274,9 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
+ 
   z-index: 1;
-  background: url(../gallery/compress1.jpg) no-repeat scroll center center;
+  background: url(../gallery/1.jpg) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     overflow: hidden;
@@ -2595,7 +2596,7 @@ h6 {
   vertical-align: middle;
   align-self: center; }
 .design_inner .design_left_text {
-  margin-left: 195px;
+  margin-left: 75px;
   max-width: 380px; }
   .design_inner .design_left_text h6 {
     font-size: 21px;

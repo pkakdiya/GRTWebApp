@@ -84,7 +84,7 @@ button:focus {
 
 .p_120 {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 40px; }
 
 .pad_top {
   padding-top: 120px; }
@@ -276,7 +276,7 @@ button:focus {
 .home_banner_area {
  
   z-index: 1;
-  background: url(../gallery/1.jpg) no-repeat scroll center center;
+  background: url(../gallery/compress1.jpg) no-repeat scroll center center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     overflow: hidden;

@@ -18,7 +18,7 @@
                             <div class="input-group-icon mt-10">
                                 <div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
                                 <input type="text" name="address" placeholder="Address" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Adresss'" required
+                                    onblur="this.placeholder = 'Enter Your Native Adresss'" required
                                     class="single-input-primary single-input">
                             </div>
                         </div>
@@ -34,35 +34,23 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <div class="input-group-icon mt-10">
-                                <div class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                                <input type="text" name="Ivyapar" placeholder="Enter Your Business"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Business*'"
-                                    required class="single-input-primary single-input">
+                                <div class="switch-wrap d-flex justify-content-between single-input-primary single-input">
+                                    <p>Business</p>
+                                    <div class="primary-switch" style="margin-top: 10px;">
+                                        <input type="checkbox" id="Business">
+                                        <label for="Business"></label>
+                                    </div>
+                                    <p>Job</p>
+                                    <div class="primary-switch" style="margin-top: 10px;">
+                                        <input type="checkbox" id="Job" >
+                                        <label for="Job"></label>
+                                    </div>
+                                </div>
+                               
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <div class="input-group-icon mt-10">
-                                <div class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                                <input type="text" name="Ijob" placeholder="Enter Your Job-Name"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Your Job-Name*'"
-                                    required class="single-input-primary single-input">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <div class="input-group-icon mt-10">
-                                <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                                <textarea name="Ipadresss" placeholder="Enter Your Permenent Adresss"
-                                    onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Enter Your Permenent Address'" required
-                                    class="single-input-primary single-input"></textarea>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-md-6">
                         <div class="form-group">
                             <div class="input-group-icon mt-10">
@@ -100,13 +88,13 @@
                                 <div class="switch-wrap d-flex justify-content-between single-input-primary single-input">
                                     <p>2BHK</p>
                                     <div class="primary-switch" style="margin-top: 10px;">
-                                        <input type="checkbox" id="primary-switch">
-                                        <label for="primary-switch"></label>
+                                        <input type="checkbox" id="TwoBhk">
+                                        <label for="TwoBhk"></label>
                                     </div>
                                     <p>3BHK</p>
                                     <div class="primary-switch" style="margin-top: 10px;">
-                                        <input type="checkbox" id="default-switch" >
-                                        <label for="default-switch"></label>
+                                        <input type="checkbox" id="ThreeBhk" >
+                                        <label for="ThreeBhk"></label>
                                     </div>
                                 </div>
                                
@@ -125,7 +113,7 @@
                         </div>
                     </div>
                     <div class="col-md-12" style="text-align: center">
-                        <button type="submit" value="submit" class="btn submit_btn">Send Inquiry</button>
+                        <button type="submit" value="submit" class="btn btndefault submit_btn  btnhover">Send Inquiry</button>
                     </div>
 
                 </form>

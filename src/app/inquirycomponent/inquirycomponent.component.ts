@@ -11,7 +11,7 @@ export class InquirycomponentComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  onSubmit(params: any) {
+  onSubmit(event: any) {
+    console.log(event);
   }
 }

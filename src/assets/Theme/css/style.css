@@ -44,6 +44,14 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.btndefault{
+  color: black; 
+  background-color: transparent;
+  border-color:#907d7d99;
+}
+.btnhover:hover {
+  background-color:#a7cb00;
+}
 .list {
   list-style: none;
   margin: 0px;
@@ -76,7 +84,7 @@ button:focus {
 
 .p_120 {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 40px; }
 
 .pad_top {
   padding-top: 120px; }
@@ -266,6 +274,7 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
+ 
   z-index: 1;
   background: url(../gallery/compress1.jpg) no-repeat scroll center center;
   background-size: cover; }
@@ -2466,9 +2475,7 @@ h6 {
 .submit_btn {
   width: auto;
   display: inline-block;
-  background: #a7cb00;
   padding: 0px 50px;
-  color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -2589,7 +2596,7 @@ h6 {
   vertical-align: middle;
   align-self: center; }
 .design_inner .design_left_text {
-  margin-left: 195px;
+  margin-left: 75px;
   max-width: 380px; }
   .design_inner .design_left_text h6 {
     font-size: 21px;

@@ -38,12 +38,12 @@
                                     class="switch-wrap d-flex justify-content-between single-input-primary single-input">
                                     <p>Business</p>
                                     <div class="primary-switch" style="margin-top: 10px;">
-                                        <input type="checkbox" id="Business">
+                                        <input type="checkbox" id="Business" name="IBusiness" [(ngModel)]="IBusiness">
                                         <label for="Business"></label>
                                     </div>
                                     <p>Job</p>
                                     <div class="primary-switch" style="margin-top: 10px;">
-                                        <input type="checkbox" id="Job">
+                                        <input type="checkbox" id="Job" name="IJob" [(ngModel)]="IJob">
                                         <label for="Job"></label>
                                     </div>
                                 </div>
@@ -89,12 +89,12 @@
                                     class="switch-wrap d-flex justify-content-between single-input-primary single-input">
                                     <p>2BHK</p>
                                     <div class="primary-switch" style="margin-top: 10px;">
-                                        <input type="checkbox" id="TwoBhk">
+                                        <input type="checkbox" id="TwoBhk" name="I2BHK" [(ngModel)]="I2BHK">
                                         <label for="TwoBhk"></label>
                                     </div>
                                     <p>3BHK</p>
                                     <div class="primary-switch" style="margin-top: 10px;">
-                                        <input type="checkbox" id="ThreeBhk">
+                                        <input type="checkbox" id="ThreeBhk" name="I3BHK" [(ngModel)]="I3BHK">
                                         <label for="ThreeBhk"></label>
                                     </div>
                                 </div>
@@ -113,8 +113,7 @@
                         </div>
                     </div>
                     <div class="col-md-12" style="text-align: center">
-                        <button type="submit" value="submit" class="btn btndefault submit_btn  btnhover">Send
-                            Inquiry</button>
+                        <button type="submit" value="submit" class="btn btndefault submit_btn  btnhover">{{inquiryBtnText}}</button>
                     </div>
 
                 </form>

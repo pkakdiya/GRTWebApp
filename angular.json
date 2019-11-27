@@ -24,7 +24,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/Theme/css/bootstrap.css",
+              "src/assets/Theme/vendors/linericon/style.css",
+              "src/assets/Theme/css/font-awesome.min.css",
+              "src/assets/Theme/vendors/nice-select/css/nice-select.css",
+              "src/assets/Theme/vendors/animate-css/animate.css",
+              "src/assets/Theme/vendors/popup/magnific-popup.css",
+              "src/assets/Theme/css/style.css",
+              "src/assets/Theme/css/responsive.css",
+              "node_modules/ag-grid-community/dist/styles/ag-grid.css",
+              "node_modules/ag-grid-community/dist/styles/ag-theme-balham.css"
             ],
             "scripts": []
           },

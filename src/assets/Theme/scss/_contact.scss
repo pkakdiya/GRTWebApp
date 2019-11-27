@@ -9,7 +9,6 @@
 		position: relative;
 		&:before{
 			content: "";
-			background: url(../img/contact-shap-1.png);
 			position: absolute;
 			left: -125px;
 			height: 421px;
@@ -19,7 +18,6 @@
 		}
 		&:after{
 			content: "";
-			background: url(../img/contact-shap-2.png);
 			position: absolute;
 			right: -125px;
 			height: 421px;
